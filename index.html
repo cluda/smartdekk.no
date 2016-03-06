@@ -1,0 +1,83 @@
+--- 
+layout: default 
+---
+
+
+    <div class="index-top-section mdl-typography--text-center mdl-grid">
+      <div class="mdl-cell mdl-cell--8-col">
+        <img class="dekk-logo-image" src="/img/logo-light.png">
+      </div>
+      <div class="kontakt-card-square mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col">
+        <div class="kontakt-card-title mdl-card--expand">
+          <h2 class="display-1">Kontakt</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+                    <h4>Tlf: 928 99 067</h4>
+          <form action="#">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input class="mdl-textfield__input" type="text" id="sample1">
+              <label class="mdl-textfield__label" for="sample1">Telefon eller email</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+              <textarea class="mdl-textfield__input" type="text" rows="3" id="sample5"></textarea>
+              <label class="mdl-textfield__label" for="sample5">Din melding</label>
+            </div>
+          </form>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Send Melding
+    </a>
+        </div>
+      </div>
+    </div>
+    <div class="dekk-header mdl-layout__header mdl-layout__header--waterfall">
+      <div class="mdl-layout__header-row">
+        <!-- Add spacer, to align navigation to the right in desktop -->
+        <div class="dekk-header-spacer mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <div class="dekk-navigation-container">
+          <nav class="dekk-navigation mdl-navigation">
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Dekkutvalg</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sommerdekk</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Vinterdekk</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Fleger</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Dekkhotell</a>
+            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Om Oss</a>
+          </nav>
+        </div>
+        <span class="dekk-mobile-title mdl-layout-title">
+            <img class="dekk-logo-image" src="images/dekk-logo.png">
+          </span>
+      </div>
+    </div>
+    <div class="dekk-more-section">
+      
+      <div class="dekk-card-container mdl-grid">
+              {% include tilbud/tilbud1.html %}
+              {% include tilbud/tilbud1.html %}
+              {% include tilbud/tilbud1.html %}
+              {% include tilbud/tilbud1.html %}
+      </div>
+      
+    </div>
+    <div class="dekk-wear-section">
+      <div class="dekk-wear-band">
+        <div class="dekk-wear-band-text">
+          <div class="mdl-typography--display-2 mdl-typography--font-thin">Vi tar vare på dine dekk</div>
+          <p class="mdl-typography--headline mdl-typography--font-thin">
+            Fem stjerners dekkhotell.
+          </p>
+          <p>
+            <a class="mdl-typography--font-regular mdl-typography--text-uppercase dekk-alt-link" href="">
+                  Sjekk ut vårt dekkhotell&nbsp;<i class="material-icons">chevron_right</i>
+                </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    
+<iframe width="100%" height="600" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJnc_rmYP5PEYR9lcw1-Mxb5o&key=AIzaSyAQnQY5WIPPGOTn2tki8ZTSie2VjoGhsV8" allowfullscreen></iframe>
+
+    <!--// footer-->
