@@ -16,4 +16,3 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-safe: true
