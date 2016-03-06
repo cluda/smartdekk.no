@@ -9,7 +9,7 @@
 title: Your awesome title
 email: your-email@domain.com
 description: "dekk butikk"
-baseurl: "smartdekk.no" # the subpath of your site, e.g. /blog
+baseurl: "/smartdekk.no" # the subpath of your site, e.g. /blog
 url: "http://cluda.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
