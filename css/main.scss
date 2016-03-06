@@ -9,7 +9,7 @@
   height: 600px;
   width: auto;
   background-color: #f3f3f3;
-  background: url("/img/dekk-big-1.jpg") center 30% no-repeat;
+  background: url({{ "/img/dekk-big-1.jpg" | prepend: site.baseurl }}) center 30% no-repeat;
   background-size: cover;
   color: #fff;
 }
@@ -171,7 +171,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('/img/dekk-big-2.jpg') center 30% no-repeat;
+  background: url({{ "/img/dekk-big-1.jpg" | prepend: site.baseurl }}) center 30% no-repeat;
   background-size: cover;
 }
 
@@ -298,7 +298,7 @@ a img{
 
 .dekk-wear-section {
   position: relative;
-  background: url('/img/dekk-big-2.jpg') center top no-repeat;
+  background: url({{ "/img/dekk-big-2.jpg" | prepend: site.baseurl }}) center top no-repeat;
   background-size: cover;
   height: 800px;
 }
@@ -369,7 +369,6 @@ a img{
   }
 
 .dekk-customized-section-image {
-  background: url('img/devices.jpg') center top no-repeat;
   background-size: cover;
   height: 400px;
 }
