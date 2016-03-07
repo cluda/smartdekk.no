@@ -4,20 +4,70 @@
 @charset "utf-8";
 
  $mainColor: rgb(106, 189, 69);
+ $tablet: 900px;
+ $mobil: 600px;
+ 
+ .dekk-logo-image-sidebar {
+   max-width: 170px !important;
+ }
+ 
+    .mobile-menu {
+    display: none !important;
+  }
+  
+  .mdl-layout__drawer-button {
+    display: none !important;
+  }
+  
+  .dekk-header {
+    display: flex !important;
+  }
+  
+   @media screen and (max-width: $mobil) {
+       .dekk-logo-image {
+    margin-top: 20px !important;
+  }
+   }
+  
+ @media screen and (max-width: $tablet) {
+   .mobile-menu {
+    display: flex !important;
+  }
+  
+    .mdl-layout__drawer-button {
+    display: block !important;
+  }
+    .dekk-header {
+        display: none !important;
+  }
+  
+  .kontakt-card-square {
+    width: 100% !important;
+    margin-top: 10px !important;
+    margin: auto;
+  }
+  
+
+ }
+ 
+ .article-list {
+   max-width: 800px;
+    margin: auto;
+ }
  
  .dekk-footer-headding {
    color: #2D2D2D !important;
  }
  
  .article-list {
-      padding: 30px;
+    padding: 30px;
     /* max-width: 600px; */
     margin: auto;
     bottom: 0px;
     
     li {
       padding-top: 60px;
-    padding-bottom: 60px;
+      padding-bottom: 60px;
     }
     
     img {
@@ -29,16 +79,16 @@
    padding-top: 30px;
    padding-bottom: 50px;
    text-align: center;
-   font-size: 1.7em;
+   font-size: 1.3em;
    line-height: 1.5em;
  }
 
 .index-top-section {
   position: relative;
-  height: 600px;
+  min-height: 600px;
   width: auto;
-  background-color: #f3f3f3;
-  background: url({{ "/img/dekk-big-1.jpg" | prepend: site.baseurl }}) center 30% no-repeat;
+  background-color: #525252;
+  /* background: url({{ "/img/dekk-big-1.jpg" | prepend: site.baseurl }}) center 30% no-repeat; */
   background-size: cover;
   color: #fff;
 }
@@ -105,9 +155,9 @@ a img{
 
 
 .dekk-logo-image {
-    height: 500px;
-    width: 700px;
-    margin-top: -60px;
+    max-height: 130px;
+    margin-top: 150px;
+    max-width: 100%;
 }
 
 
