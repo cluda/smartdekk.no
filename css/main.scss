@@ -3,6 +3,35 @@
 ---
 @charset "utf-8";
 
+ $mainColor: rgb(106, 189, 69);
+ 
+ .dekk-footer-headding {
+   color: #2D2D2D !important;
+ }
+ 
+ .article-list {
+      padding: 30px;
+    /* max-width: 600px; */
+    margin: auto;
+    bottom: 0px;
+    
+    li {
+      padding-top: 60px;
+    padding-bottom: 60px;
+    }
+    
+    img {
+      padding-right: 30px;
+    }  
+ }
+ 
+ .promo-text {
+   padding-top: 30px;
+   padding-bottom: 50px;
+   text-align: center;
+   font-size: 1.7em;
+   line-height: 1.5em;
+ }
 
 .index-top-section {
   position: relative;
@@ -57,9 +86,9 @@ a img{
 }
 
 .kontakt-card-square {
-  max-height: 400px;
+  max-height: 480px;
   max-width: 350px;
-  margin-top: 90px !important;
+  margin-top: 50px !important;
 }
 
 .mdl-mega-footer {
@@ -84,7 +113,7 @@ a img{
 
 .dekk-header {
   overflow: visible;
-  background-color: rgb(106, 189, 69) !important;
+  background-color: $mainColor !important;
 }
 
   .dekk-header .material-icons {
@@ -122,7 +151,7 @@ a img{
   }
 
     .dekk-navigation .mdl-navigation__link:hover {
-      border-bottom: 4px solid #8bc34a;
+      border-bottom: 4px solid darken($mainColor, 10);
     }
 
   .dekk-search-box {
@@ -375,7 +404,7 @@ a img{
 
 .dekk-more-section {
   padding: 80px 0;
-  max-width: 1044px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -546,3 +575,4 @@ a img{
    margin-top:-600px;  /* your iframe height */
    z-index:10
 }
+
