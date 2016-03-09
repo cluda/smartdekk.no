@@ -8,6 +8,24 @@
 @import 'felg';
 @import 'dekk';
 
+.tilbudslink {
+  text-decoration: none;
+}
+
+.pakketilbud {
+  .mdl-card__supporting-text {
+    padding-bottom: 70px !important;
+  }
+  
+  .mdl-typography--text-uppercase {
+    font-size: 1.1em;
+    margin-left: 9px;
+  }
+}
+
+.tilbud-bilde {
+  height: 365px;
+}
 
 .page-content {
   min-height: 60vh;
