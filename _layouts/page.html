@@ -1,14 +1,30 @@
+--- 
+layout: default 
 ---
-layout: default
----
-<article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+<div class="page-top-section mdl-typography--text-center mdl-grid">
+  <a class="mdl-navigation__link mdl-typography--text-uppercase dekk-logo-image-link" href="{{ '/'' | prepend: site.baseurl }}">
+  <img class="dekk-logo-image" src="{{ '/img/logo-light.png'' | prepend: site.baseurl }}">
+  </a>
 
-  <div class="post-content">
-    {{ content }}
+</div>
+<div class="dekk-header mdl-layout__header mdl-layout__header--waterfall">
+  <div class="mdl-layout__header-row">
+    <!-- Add spacer, to align navigation to the right in desktop -->
+    <div class="dekk-header-spacer mdl-layout-spacer"></div>
+    <!-- Navigation -->
+    <div class="dekk-navigation-container">
+      <nav class="dekk-navigation mdl-navigation">
+        {% include links.html %}
+      </nav>
+    </div>
   </div>
-
-</article>
+</div>
+<div class="page-content mdl-grid">
+  <div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--2-offset-desktop">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+    </header>
+    {{ content }}            
+  </div>
+</div>

@@ -1,12 +1,21 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
 
- $mainColor: rgb(106, 189, 69);
- $tablet: 900px;
- $mobil: 600px;
- 
+@import 'variables';
+@import 'om-oss';
+@import 'dekkhotell';
+
+
+.page-content {
+  min-height: 60vh;
+  max-width: 1800px;
+  
+  p {
+    font-size: 1.3em;
+  }
+}
+
  .dekk-logo-image-sidebar {
    max-width: 170px !important;
  }
@@ -46,7 +55,6 @@
     margin-top: 10px !important;
     margin: auto;
   }
-  
 
  }
  
@@ -93,6 +101,18 @@
   color: #fff;
 }
 
+.page-top-section {
+  position: relative;
+  width: auto;
+  background-color: #525252;
+  /* background: url({{ "/img/dekk-big-1.jpg" | prepend: site.baseurl }}) center 30% no-repeat; */
+  background-size: cover;
+  color: #fff;
+  img {
+    margin-top: 0px;
+  }
+}
+
 .top-logo-bar {
   padding: 0px !important;
 }
@@ -136,9 +156,13 @@ a img{
 }
 
 .kontakt-card-square {
-  max-height: 480px;
+  max-height: 520px;
   max-width: 350px;
-  margin-top: 50px !important;
+  margin-top: 35px !important;
+  
+  hr {
+    margin-bottom: 0px;
+  }
 }
 
 .mdl-mega-footer {
@@ -155,9 +179,14 @@ a img{
 
 
 .dekk-logo-image {
+  margin: auto;
     max-height: 130px;
     margin-top: 150px;
     max-width: 100%;
+}
+
+.dekk-logo-image-link {
+    margin: auto !important;
 }
 
 
@@ -189,7 +218,7 @@ a img{
     /* ... and now make sure the content is actually LTR */
     direction: ltr;
     justify-content: flex-end;
-    width: 800px;
+    width: 900px;
   }
 
   .dekk-navigation .mdl-navigation__link {
@@ -309,13 +338,13 @@ a img{
   text-decoration: none;
 }
 
-.dekk-wear {
+.dekk-hotell {
   display: inline-block;
   width: 160px;
   margin-right: 32px;
 }
 
-  .dekk-wear .dekk-screen-image {
+  .dekk-hotell .dekk-screen-image {
     width: 40%;
     z-index: 1;
   }
@@ -375,14 +404,14 @@ a img{
   }
 
 
-.dekk-wear-section {
+.dekk-hotell-section {
   position: relative;
   background: url({{ "/img/dekk-big-2.jpg" | prepend: site.baseurl }}) center top no-repeat;
   background-size: cover;
   height: 800px;
 }
 
-.dekk-wear-band {
+.dekk-hotell-band {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -390,7 +419,7 @@ a img{
   background-color: #37474f;
 }
 
-.dekk-wear-band-text {
+.dekk-hotell-band-text {
   max-width: 800px;
   margin-left: 25%;
   padding: 24px;
@@ -398,7 +427,7 @@ a img{
   color: white;
 }
 
-  .dekk-wear-band-text p {
+  .dekk-hotell-band-text p {
     padding-top: 8px;
   }
 
@@ -605,7 +634,7 @@ a img{
     display: none;
   }
 
-  .dekk-wear-band-text {
+  .dekk-hotell-band-text {
     margin-left: 0;
     padding: 16px;
   }

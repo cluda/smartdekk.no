@@ -2,7 +2,6 @@
 layout: default 
 ---
 
-  
 <div class="index-top-section mdl-typography--text-center mdl-grid">
 <div class="mdl-cell mdl-cell--8-col">
   <img class="dekk-logo-image" src="{{ '/img/logo-light.png'' | prepend: site.baseurl }}">
@@ -17,12 +16,13 @@ layout: default
 
 <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
   <div class="kontakt-card-square mdl-card mdl-shadow--2dp">
-    <div class="kontakt-card-title mdl-card--expand">
+    <div class="mdl-card__supporting-text">
       <h3>Åpningstider</h3>
       <p>
         man-fre: 09-18 lør: 10-14
       </p>
     </div>
+    <hr>
     <div class="mdl-card__supporting-text">
       <h3>Kontakt</h3>
       <h5>Tlf: 55 91 00 54</h5>
@@ -52,12 +52,7 @@ layout: default
     <!-- Navigation -->
     <div class="dekk-navigation-container">
       <nav class="dekk-navigation mdl-navigation">
-        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sommerdekk</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Vinterdekk</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Fleger</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Felgpakker</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Dekkhotell</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Om Oss</a>
+      {% include links.html %}
       </nav>
     </div>
   </div>
@@ -65,20 +60,22 @@ layout: default
 
 <div class="dekk-more-section">
   <div class="dekk-card-container mdl-grid">
-    {% include tilbud/tilbud1.html %} {% include tilbud/tilbud1.html %} {% include tilbud/tilbud1.html %} {% include tilbud/tilbud1.html
-    %}
+    {% include tilbud/tilbud1.html %} 
+    {% include tilbud/tilbud1.html %} 
+    {% include tilbud/tilbud1.html %} 
+    {% include tilbud/tilbud1.html %}
   </div>
 </div>
 
-<div class="dekk-wear-section">
-  <div class="dekk-wear-band">
-    <div class="dekk-wear-band-text">
+<div class="dekk-hotell-section">
+  <div class="dekk-hotell-band">
+    <div class="dekk-hotell-band-text">
       <div class="mdl-typography--display-2 mdl-typography--font-thin">Vi tar vare på dine dekk</div>
       <p class="mdl-typography--headline mdl-typography--font-thin">
         Fem stjerners dekkhotell.
       </p>
       <p>
-        <a class="mdl-typography--font-regular mdl-typography--text-uppercase dekk-alt-link" href="">
+        <a class="mdl-typography--font-regular mdl-typography--text-uppercase dekk-alt-link" href="{{ '/dekkhotell'' | prepend: site.baseurl }}">
                   Sjekk ut vårt dekkhotell&nbsp;<i class="material-icons">chevron_right</i>
                 </a>
       </p>

@@ -7,7 +7,6 @@
 
   <div class="mdl-layout mdl-js-layout">
     <div class="dekk-content mdl-layout__content">
-
       <div class="demo-layout-transparent mdl-layout mdl-js-layout">
         <header class="mdl-layout__header mobile-menu">
           <div class="mdl-layout__header-row">
@@ -16,12 +15,7 @@
         <div class="mdl-layout__drawer">
           <span class="mdl-layout-title"><img class="dekk-logo-image-sidebar" src="{{ '/img/logo-light.png'' | prepend: site.baseurl }}"></span>
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sommerdekk</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Vinterdekk</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Fleger</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Felgpakker</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Dekkhotell</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Om Oss</a>
+            {% include links.html %}
           </nav>
         </div>
         <main class="mdl-layout__content">
@@ -31,6 +25,7 @@
       </div>
     </div>
   </div>
+
   <script defer src="https://code.getmdl.io/1.1.2/material.min.js"></script>
 
 </body>
