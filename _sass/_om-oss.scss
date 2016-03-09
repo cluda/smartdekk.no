@@ -1,10 +1,32 @@
 .om-oss {
   img {
-      margin: auto;
+    max-width:100%;
+    max-height:100%;
+    display: block;
+    margin-right: auto;
   }
   
   .text-content {
     padding-top: 30px;
     padding-bottom: 30px;
+  }
+  
+  .mdl-cell {
+    margin: auto;
+  }
+  
+  .kontakt-card-square {
+    text-align: center;
+    margin-left: auto;
+  }
+  
+  @media screen and (max-width: $tablet) {
+    img {
+      margin: auto;
+    }
+  
+    .kontakt-card-square {
+      margin: auto;
+    }
   }
 }
