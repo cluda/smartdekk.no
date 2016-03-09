@@ -98,10 +98,11 @@
   min-height: 600px;
   width: auto;
   background-color: #525252;
-  /* background: url({{ "/img/dekk-big-1.jpg" | prepend: site.baseurl }}) center 30% no-repeat; */
+  background: url({{ "/img/butikken.jpg" | prepend: site.baseurl }}) center 30% no-repeat;
   background-size: cover;
   color: #fff;
 }
+
 
 .page-top-section {
   position: relative;
