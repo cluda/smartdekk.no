@@ -7,9 +7,7 @@
 
 # Site settings
 title: SmartDekk
-email: your-email@domain.com
-description: "dekk butikk"
+email: post@smartdekk.no
+description: "Bergens beste dekkbutikk"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://smartdekk.no" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
