@@ -221,8 +221,8 @@ a img{
 
   .dekk-header .mdl-navigation__link {
     color: #757575;
-    font-weight: 700;
-    font-size: 14px;
+    //font-weight: 700;
+    font-size: 15px;
   }
 
   .dekk-navigation-container {
@@ -684,4 +684,9 @@ a img{
 .cluda-link {
   color: $textOnDarkHard !important;
   text-decoration: none;
+}
+
+.mobile-menu-row {
+    margin: auto !important;
+    padding-right: 72px !important;
 }
