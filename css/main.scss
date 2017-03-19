@@ -118,17 +118,20 @@
   background-color: #525252;
   background: url({{ "/img/butikken.jpg" | prepend: site.baseurl }}) center 30% no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #000;
 }
 
 
 .page-top-section {
+
+  //background: url(/img/butikken.jpg) center 30% no-repeat;
+
   position: relative;
   width: auto;
   background-color: #525252;
-  /* background: url({{ "/img/dekk-big-1.jpg" | prepend: site.baseurl }}) center 30% no-repeat; */
+  background: url({{ "/img/butikken.jpg" | prepend: site.baseurl }}) center 20% no-repeat;
   background-size: cover;
-  color: #fff;
+  color: #000;
   img {
     margin-top: 0px;
   }
