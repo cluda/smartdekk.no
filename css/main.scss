@@ -433,7 +433,7 @@ a img{
   position: relative;
   background: url({{ "/img/dekk-hotell-1.jpg" | prepend: site.baseurl }}) center top no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 500px;
 }
 
 .dekk-hotell-band {
