@@ -1,0 +1,574 @@
+.om-oss img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin-right: auto;
+}
+.om-oss .text-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.om-oss .margin-auto {
+  margin: auto;
+}
+.om-oss .kontakt-card-square {
+  text-align: center;
+  margin-left: auto;
+}
+@media screen and (max-width: 900px) {
+  .om-oss img {
+    margin: auto;
+  }
+  .om-oss .kontakt-card-square {
+    margin: auto;
+  }
+}
+.offer-list {
+  max-width: 800px !important;
+}
+.mdl-list__item-text-body {
+  margin-left: 56px;
+  margin-bottom: 20px;
+}
+.dekk-prisrubrikk img {
+  margin: auto;
+}
+.dekk-prisrubrikk .mdl-card {
+  width: 100% !important;
+}
+.dekk-prisrubrikk .image-container {
+  margin: auto;
+}
+.pris-info {
+  margin-left: 13px;
+}
+.tilbudslink {
+  text-decoration: none;
+}
+.pakketilbud .mdl-card__supporting-text {
+  padding-bottom: 70px !important;
+}
+.pakketilbud .mdl-typography--text-uppercase {
+  font-size: 1.1em;
+  margin-left: 9px;
+}
+.tilbud-bilde {
+  height: 365px;
+}
+.page-content {
+  min-height: 60vh;
+  max-width: 1800px;
+}
+.page-content p {
+  font-size: 1.3em;
+}
+.dekk-logo-image-sidebar {
+  max-width: 170px !important;
+}
+.mobile-menu {
+  display: none !important;
+}
+.mdl-layout__drawer-button {
+  display: none !important;
+}
+.dekk-header {
+  display: flex !important;
+}
+@media screen and (max-width: 600px) {
+  .dekk-logo-image {
+    margin-top: 20px !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  .mobile-menu {
+    display: flex !important;
+  }
+  .mdl-layout__drawer-button {
+    display: block !important;
+  }
+  .dekk-header {
+    display: none !important;
+  }
+  .kontakt-card-square {
+    width: 100% !important;
+    margin-top: 10px !important;
+    margin: auto;
+  }
+}
+.article-list {
+  max-width: 800px;
+  margin: auto;
+}
+.dekk-footer-headding {
+  color: #fff !important;
+}
+.article-list {
+  padding: 30px;
+  margin: auto;
+  bottom: 0px;
+}
+.article-list li {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.article-list img {
+  padding-right: 30px;
+}
+.promo-text {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+.index-top-section {
+  position: relative;
+  min-height: 600px;
+  width: auto;
+  background-color: #525252;
+  background: url(/img/butikken.jpg) center 30% no-repeat;
+  background-size: cover;
+  color: #000;
+}
+.page-top-section {
+  position: relative;
+  width: auto;
+  background-color: #525252;
+  background: url(/img/butikken.jpg) center 20% no-repeat;
+  background-size: cover;
+  color: #000;
+}
+.page-top-section img {
+  margin-top: 0px;
+}
+.top-logo-bar {
+  padding: 0px !important;
+}
+body {
+  margin: 0;
+}
+a img {
+  border: 0px;
+}
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+.dekk-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+.mdl-textfield--expandable {
+  width: auto;
+}
+.dekk-fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #64ffda !important;
+  color: black !important;
+}
+.kontakt-card-square {
+  max-height: 550px;
+  max-width: 350px;
+  margin-top: 20px !important;
+}
+.kontakt-card-square hr {
+  margin-bottom: 0px;
+}
+.kontakt-card-title {
+  color: gray;
+}
+.dekk-mobile-title {
+  display: none !important;
+}
+.dekk-logo-image {
+  margin: auto;
+  max-height: 130px;
+  margin-top: 150px;
+  max-width: 100%;
+}
+.dekk-logo-image-link {
+  margin: auto !important;
+}
+.dekk-header {
+  overflow: visible;
+  background-color: #6abd45 !important;
+}
+.dekk-header .material-icons {
+  color: #767777 !important;
+}
+.dekk-header .mdl-navigation__link {
+  color: #757575;
+  font-size: 15px;
+}
+.dekk-navigation-container {
+  direction: rtl;
+  order: 1;
+  width: 500px;
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.dekk-navigation {
+  direction: ltr;
+  justify-content: flex-end;
+  width: 900px;
+}
+.dekk-navigation .mdl-navigation__link {
+  display: inline-block;
+  height: 60px;
+  line-height: 68px;
+  background-color: transparent !important;
+  border-bottom: 4px solid transparent;
+}
+.dekk-navigation .mdl-navigation__link:hover {
+  border-bottom: 4px solid #559936;
+}
+.dekk-search-box {
+  order: 2;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.dekk-more-button {
+  order: 3;
+}
+.dekk-drawer {
+  border-right: none;
+}
+.dekk-drawer-separator {
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 8px 0;
+}
+.dekk-drawer .mdl-navigation__link.mdl-navigation__link {
+  font-size: 14px;
+  color: #757575;
+}
+.dekk-drawer span.mdl-navigation__link.mdl-navigation__link {
+  color: #8bc34a;
+}
+.dekk-drawer .mdl-layout-title {
+  position: relative;
+  background: #6ab344;
+  height: 160px;
+}
+.dekk-drawer .dekk-logo-image {
+  position: absolute;
+  bottom: 16px;
+}
+.dekk-be-together-section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url(/img/dekk-hotell.jpg) center 30% no-repeat;
+  background-size: cover;
+}
+.logo-font {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1;
+  color: #767777;
+  font-weight: 500;
+}
+.dekk-slogan {
+  font-size: 60px;
+  padding-top: 160px;
+}
+.dekk-sub-slogan {
+  font-size: 21px;
+  padding-top: 24px;
+}
+.dekk-create-character {
+  font-size: 21px;
+  padding-top: 400px;
+}
+.dekk-create-character a {
+  text-decoration: none;
+  color: #767777;
+  font-weight: 300;
+}
+.dekk-screen-section {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.dekk-screens {
+  text-align: right;
+  width: 100%;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+.dekk-screen {
+  text-align: center;
+}
+.dekk-screen .dekk-link {
+  margin-top: 16px;
+  display: block;
+  z-index: 2;
+}
+.dekk-image-link {
+  text-decoration: none;
+}
+.dekk-hotell {
+  display: inline-block;
+  width: 160px;
+  margin-right: 32px;
+}
+.dekk-hotell .dekk-screen-image {
+  width: 40%;
+  z-index: 1;
+}
+.dekk-phone {
+  display: inline-block;
+  width: 64px;
+  margin-right: 48px;
+}
+.dekk-phone .dekk-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+.dekk-tablet {
+  display: inline-block;
+  width: 110px;
+  margin-right: 64px;
+}
+.dekk-tablet .dekk-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+.dekk-tablet .dekk-link {
+  display: block;
+  z-index: 2;
+}
+.dekk-tv {
+  display: inline-block;
+  width: 300px;
+  margin-right: 80px;
+}
+.dekk-tv .dekk-screen-image {
+  width: 100%;
+  z-index: 1;
+}
+.dekk-auto {
+  display: inline-block;
+  width: 300px;
+  overflow: hidden;
+}
+.dekk-auto .dekk-screen-image {
+  display: block;
+  height: 300px;
+  z-index: 1;
+}
+.dekk-hotell-bilde {
+  background: url(/img/dekk-hotell-2.jpg) center top no-repeat;
+}
+.dekk-hotell-section {
+  position: relative;
+  background: url(/img/dekk-hotell-1.jpg) center top no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+.dekk-hotell-band {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #37474f;
+}
+.dekk-hotell-band-text {
+  max-width: 800px;
+  margin-left: 25%;
+  padding: 24px;
+  text-align: left;
+  color: white;
+}
+.dekk-hotell-band-text p {
+  padding-top: 8px;
+}
+.dekk-link {
+  text-decoration: none;
+  color: #8bc34a !important;
+}
+.dekk-link:hover {
+  color: #7cb342 !important;
+}
+.dekk-link .material-icons {
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+}
+.dekk-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+.dekk-alt-link:hover {
+  color: #00bfa5 !important;
+}
+.dekk-alt-link .material-icons {
+  position: relative;
+  top: 6px;
+}
+.dekk-customized-section {
+  text-align: center;
+}
+.dekk-customized-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+.dekk-customized-section-text p {
+  padding-top: 16px;
+}
+.dekk-customized-section-image {
+  background-size: cover;
+  height: 400px;
+}
+.dekk-more-section {
+  padding: 80px 0;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.dekk-more-section .dekk-section-title {
+  margin-left: 12px;
+  padding-bottom: 24px;
+}
+.dekk-card-container .mdl-card__media {
+  overflow: hidden;
+  background: transparent;
+}
+.dekk-card-container .mdl-card__media img {
+  width: 100%;
+}
+.dekk-card-container .mdl-card__title {
+  background: transparent;
+  height: auto;
+}
+.dekk-card-container .mdl-card__title-text {
+  color: black;
+  height: auto;
+}
+.dekk-card-container .mdl-card__supporting-text {
+  height: auto;
+  color: black;
+  padding-bottom: 56px;
+}
+.dekk-card-container .mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}
+.dekk-card-container .mdl-card__actions a {
+  border-top: none;
+  font-size: 16px;
+}
+.dekk-footer {
+  background-color: rgba(66, 66, 66, 0.71) !important;
+  position: relative;
+  color: #d8d8d8 !important;
+}
+.dekk-footer a:hover {
+  color: #8bc34a;
+}
+.dekk-footer .mdl-mega-footer--top-section::after {
+  border-bottom: none;
+}
+.dekk-footer .mdl-mega-footer--middle-section::after {
+  border-bottom: none;
+}
+.dekk-footer .mdl-mega-footer--bottom-section {
+  position: relative;
+}
+.dekk-footer .mdl-mega-footer--bottom-section a {
+  margin-right: 2em;
+}
+.dekk-footer .mdl-mega-footer--right-section a .material-icons {
+  position: relative;
+  top: 6px;
+}
+.dekk-link-menu:hover {
+  cursor: pointer;
+}
+@media (max-width: 900px) {
+  .dekk-navigation-container {
+    display: none;
+  }
+  .dekk-title {
+    display: none !important;
+  }
+  .dekk-mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .dekk.dekk-search-box.is-focused ~ .dekk-mobile-title,
+  .dekk-search-box.is-focused
+    + .dekk-navigation-container
+    + .dekk-mobile-title {
+    opacity: 0;
+  }
+  .dekk-more-button {
+    display: none;
+  }
+  .dekk-search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+  .dekk-search-box .mdl-textfield__expandable-holder {
+    width: 100%;
+  }
+  .dekk-be-together-section {
+    height: 350px;
+  }
+  .dekk-slogan {
+    font-size: 26px;
+    margin: 0 16px;
+    padding-top: 24px;
+  }
+  .dekk-sub-slogan {
+    font-size: 16px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+  .dekk-create-character {
+    padding-top: 200px;
+    font-size: 16px;
+  }
+  .dekk-create-character img {
+    height: 12px;
+  }
+  .dekk-fab {
+    display: none;
+  }
+  .dekk-hotell-band-text {
+    margin-left: 0;
+    padding: 16px;
+  }
+  .dekk-footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}
+.overlay {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  top: 600px;
+  margin-top: -600px;
+  z-index: 10;
+}
+.cluda-link {
+  color: #fff !important;
+  text-decoration: none;
+}
+.mobile-menu-row {
+  margin: auto !important;
+  padding-right: 72px !important;
+}
