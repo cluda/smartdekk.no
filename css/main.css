@@ -1,3 +1,7 @@
+.opening-hours-and-places {
+    height: 200px;
+}
+
 .om-oss img {
     max-width: 100%;
     max-height: 100%;
@@ -217,8 +221,11 @@ a img {
     color: black !important;
 }
 
+.home .kontakt-card-square {
+    height: 650px;
+}
+
 .kontakt-card-square {
-    max-height: 550px;
     max-width: 350px;
     margin-top: 20px !important;
 }
