@@ -2,6 +2,24 @@
     height: 200px;
 }
 
+.mdl-card__actions {
+    margin-top: 5px;
+}
+
+.avd-picker {
+    width: 100%;
+    text-align: start;
+    font-size: 16px;
+}
+
+.avd-picker-first-radio {
+    margin-right: 10px;
+}
+
+.avd-picker-lable {
+    margin-right: 10px;
+}
+
 .om-oss img {
     max-width: 100%;
     max-height: 100%;
