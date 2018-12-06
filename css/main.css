@@ -607,7 +607,7 @@ a img {
 .dekk-footer {
     background-color: rgba(66, 66, 66, 0.71) !important;
     position: relative;
-    color: #d8d8d8 !important;
+    color: #fff !important;
 }
 
 .dekk-footer a:hover {
